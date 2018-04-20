@@ -16,12 +16,10 @@ function whisper(string) {
 
 
 function sayHiToGrandma(string) {
-  var uppercase = "HELLO!"
-  var lowercase = 'hello!'
 
-  if lowercase.toLowerCase() === lowercase {
+  if (string.toLowerCase() === string) { 
     return "I can\'t hear you!"
-  } else if uppercase.toUpperCase() === uppercase {
+  } else if (string.toUpperCase() === string) {
     return "YES INDEED!"
   }
 }
